@@ -1,0 +1,200 @@
+<template>
+  <div class="input" :class="{'input_active': isFocus}">
+    <div class="input-prepend" v-if="$slots.prepend">
+      <slot name="prepend"></slot>
+    </div>
+    <input
+      class="input-field"
+      ref="input"
+      v-model="inputValue"
+      v-bind="$props"
+      :type="_type"
+      :name="name"
+      :disabled="disabled"
+      :readonly="readonly"
+      :autocomplete="autocomplete"
+      :autofocus="autofocus"
+      @focus="handleFocus"
+      @blur="handleBlur"
+      @change="handleChange"
+    >
+    <div class="input-append" v-if="$slots.append || _showClear || _showPwdEye">
+      <div class="input-clear" v-if="_showClear" @click="handleClear">
+        <i class="icon-wrong"></i>
+      </div>
+      <div class="input-eye" v-if="_showPwdEye" @click="handlePwdEye">
+        <i :class="eyeClass"></i>
+      </div>
+      <slot name="append"></slot>
+    </div>
+  </div>
+</template>
+
+<script>
+const COMPONENT_NAME = 'cube-input'
+const EVENT_INPUT = 'input'
+const EVENT_CHANGE = 'change'
+const EVENT_BLUR = 'blur'
+const EVENT_FOCUS = 'focus'
+
+export default {
+  name: COMPONENT_NAME,
+  props: {
+    value: [String, Number],
+    type: {
+      type: String,
+      default: 'text'
+    },
+    disabled: {
+      type: Boolean,
+      default: false
+    },
+    placeholder: String,
+    readonly: {
+      type: Boolean,
+      default: false
+    },
+    autofocus: {
+      type: Boolean,
+      default: false
+    },
+    autocomplete: {
+      type: Boolean,
+      default: false
+    },
+    name: String,
+    id: String,
+    form: String,
+    minlength: Number,
+    maxlength: Number,
+    resize: String,
+    min: Number,
+    max: Number,
+    step: Number,
+    tabindex: String,
+    clearable: {
+      type: Boolean,
+      default: false
+    },
+    eye: {
+      type: [Boolean, Object],
+      default: false
+    }
+  },
+  data() {
+    return {
+      inputValue: this.value,
+      isFocus: false,
+      pwdVisible: false
+    }
+  },
+  computed: {
+    _type() {
+      const type = this.type
+      if (type === 'password' && this.pwdVisible) {
+        return 'text'
+      }
+      return type
+    },
+    _showClear() {
+      return this.clearable && this.inputValue && !this.disabled
+    },
+    _showPwdEye() {
+      return this.type === 'password' && this.eye && !this.disabled
+    },
+    eyeClass() {
+      return this.pwdVisible ? 'icon-eye-invisible' : 'icon-eye-visible'
+    }
+  },
+  watch: {
+    value(newValue) {
+      this.inputValue = newValue
+    },
+    inputValue(newValue) {
+      this.$emit(EVENT_INPUT, newValue)
+    },
+    eye() {
+      this._computedPwdVisible()
+    }
+  },
+  created() {
+    this._computedPwdVisible()
+  },
+  methods: {
+    handleChange(e) {
+      this.$emit(EVENT_CHANGE, e)
+    },
+    _computedPwdVisible() {
+      if (typeof this.eye === 'boolean') {
+        this.pwdVisible = this.eye
+      } else {
+        this.pwdVisible = this.eye.open
+      }
+    },
+    handleFocus(e) {
+      this.$emit(EVENT_FOCUS, e)
+      this.isFocus = true
+    },
+    handleBlur(e) {
+      this.$emit(EVENT_BLUR, e)
+      this.isFocus = false
+    },
+    handleClear(e) {
+      this.inputValue = ''
+      this.$refs.input.focus()
+    },
+    handlePwdEye() {
+      this.pwdVisible = !this.pwdVisible
+    }
+  }
+}
+</script>
+
+<style lang="stylus" rel="stylesheet/stylus">
+  @require "~common/stylus/variable.styl"
+  @require "~common/stylus/mixin.styl"
+
+  .input
+    display: flex
+    align-items: center
+    font-size: $fontsize-medium
+    line-height: 1.429
+    background-color: $input-bgc
+    border-1px($input-border-color)
+    .input-field
+      flex: 1
+      width: 100%
+      padding: 10px
+      box-sizing: border-box
+      color: $input-color
+      line-height: inherit
+      background-color: inherit
+      border-radius: 2px
+      outline: none
+      &::-webkit-input-placeholder
+        color: $input-placeholder-color!important
+        text-overflow: ellipsis
+      + .input-append
+        margin-left: -5px
+    .input_active
+      &::after
+        border-color: $input-focus-border-color
+    .input-prepend, .input-append
+      display: flex
+    .input-prepend
+      + .input-field
+        margin-left: -5px
+    .input-clear, .input-eye
+      width: 1em
+      height: 1em
+      line-height: 1
+      padding: 10px
+      color: $input-clear-icon-color
+      > i
+        display: inline-block
+        transform: scale(1.2)
+    .input-eye
+      >
+        .icon-eye-invisible, .icon-eye-visible
+          transform: scale(1.4)
+</style>

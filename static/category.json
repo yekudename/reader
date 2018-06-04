@@ -1,0 +1,150 @@
+[
+  {
+    "group": "男生",
+    "category": [
+      {
+        "id": 1001,
+        "img": "static/image/book10001.jpg",
+        "title": "玄幻",
+        "bookCount": 284771
+      },
+      {
+        "id": 1002,
+        "img": "static/image/book10002.jpg",
+        "title": "奇幻",
+        "bookCount": 68037
+      },
+      {
+        "id": 1003,
+        "img": "static/image/book10003.jpg",
+        "title": "武侠",
+        "bookCount": 28539
+      },
+      {
+        "id": 1004,
+        "img": "static/image/book10004.jpg",
+        "title": "仙侠",
+        "bookCount": 87757
+      },
+      {
+        "id": 1005,
+        "img": "static/image/book10005.jpg",
+        "title": "都市",
+        "bookCount": 139063
+      },
+      {
+        "id": 1006,
+        "img": "static/image/book10006.jpg",
+        "title": "现实",
+        "bookCount": 23105
+      },
+      {
+        "id": 1007,
+        "img": "static/image/book10007.jpg",
+        "title": "历史",
+        "bookCount": 32943
+      },
+      {
+        "id": 1008,
+        "img": "static/image/book10008.jpg",
+        "title": "军事",
+        "bookCount": 7064
+      },
+      {
+        "id": 1009,
+        "img": "static/image/book10009.jpg",
+        "title": "游戏",
+        "bookCount": 41097
+      },
+      {
+        "id": 1010,
+        "img": "static/image/book10010.jpg",
+        "title": "科幻",
+        "bookCount": 74185
+      },
+      {
+        "id": 1011,
+        "img": "static/image/book10011.jpg",
+        "title": "体育",
+        "bookCount": 74185
+      },
+      {
+        "id": 1012,
+        "img": "static/image/book10012.jpg",
+        "title": "灵异",
+        "bookCount": 74185
+      },
+      {
+        "id": 1013,
+        "img": "static/image/book10013.jpg",
+        "title": "二次元",
+        "bookCount": 74185
+      },
+      {
+        "id": 1014,
+        "img": "static/image/book10014.jpg",
+        "title": "短篇",
+        "bookCount": 7185
+      }
+    ]
+  },
+  {
+    "group": "女生",
+    "category": [
+      {
+        "id": 2001,
+        "img": "static/image/book10001.jpg",
+        "title": "古代言情",
+        "bookCount": 284771
+      },
+      {
+        "id": 2002,
+        "img": "static/image/book10002.jpg",
+        "title": "现代言情",
+        "bookCount": 284771
+      },
+      {
+        "id": 2003,
+        "img": "static/image/book10003.jpg",
+        "title": "玄幻言情",
+        "bookCount": 284771
+      },
+      {
+        "id": 2004,
+        "img": "static/image/book10004.jpg",
+        "title": "悬疑灵异",
+        "bookCount": 284771
+      },
+      {
+        "id": 2005,
+        "img": "static/image/book10005.jpg",
+        "title": "浪漫青春",
+        "bookCount": 284771
+      },
+      {
+        "id": 2006,
+        "img": "static/image/book10006.jpg",
+        "title": "仙侠奇缘",
+        "bookCount": 284771
+      },
+      {
+        "id": 2007,
+        "img": "static/image/book10007.jpg",
+        "title": "科幻空间",
+        "bookCount": 284771
+      },
+      {
+        "id": 2008,
+        "img": "static/image/book10008.jpg",
+        "title": "游戏竞技",
+        "bookCount": 284771
+      },
+      {
+        "id": 2009,
+        "img": "static/image/book10009.jpg",
+        "title": "N次元",
+        "bookCount": 284771
+      }
+    ]
+  }
+]

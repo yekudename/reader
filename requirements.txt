@@ -1,0 +1,9 @@
+Flask==1.0.2
+Flask-SQLAlchemy==2.3.2
+Flask-Migrate==2.1.1
+Flask-SSE==0.2.1
+Flask-ResTFUL=0.3.6
+Flask-Cors=3.0.4
+celery==4.1.0
+PyMySQL==0.8.1
+gunicorn==19.9.1

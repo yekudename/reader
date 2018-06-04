@@ -1,0 +1,335 @@
+[
+  {
+    "name": "畅销精选",
+    "items": [
+      {
+        "id": "002J4UUk29y8BY",
+        "name": "薛之谦",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "0025NhlN2yWrP4",
+        "name": "周杰伦",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "004AlfUb0cVkN1",
+        "name": "BIGBANG (빅뱅)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "003Nz2So3XXYek",
+        "name": "陈奕迅",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "001BLpXF2DyJe2",
+        "name": "林俊杰",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "0020PeOh4ZaCw1",
+        "name": "Alan Walker (艾伦·沃克)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "000aHmbL2aPXWH",
+        "name": "李荣浩",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "000zmpju02bEBm",
+        "name": "TFBOYS",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "001JuGrt372YIQ",
+        "name": "Maroon 5 (魔力红乐团)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "000CK5xN3yZDJt",
+        "name": "许嵩",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "主编力荐",
+    "items": [
+      {
+        "id": "0020PeOh4ZaCw1",
+        "name": "Alan Walker (艾伦·沃克)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "003ArN8Z0WpjTz",
+        "name": "A-Lin",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "003CoxJh1zFPpx",
+        "name": "Adele (阿黛尔)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "免费专区",
+    "items": [
+      {
+        "id": "004AlfUb0cVkN1",
+        "name": "BIGBANG (빅뱅)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "002pUZT93gF4Cu",
+        "name": "BEYOND",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "003LaMHm42u7qS",
+        "name": "本兮",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "003DBAjk2MMfhR",
+        "name": "BLACKPINK",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "新书强推",
+    "items": [
+      {
+        "id": "003Nz2So3XXYek",
+        "name": "陈奕迅",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "004DFS271osAwp",
+        "name": "陈小春",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "000jnR7q3pCzYG",
+        "name": "Charlie Puth (查理·普斯)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "004EyqQS2hMS6V",
+        "name": "陈翔",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "000hNnWC3kko2c",
+        "name": "蔡健雅",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "经典完本",
+    "items": [
+      {
+        "id": "000yDAjj2TE9j8",
+        "name": "Eminem (艾米纳姆)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "F",
+    "items": [
+      {
+        "id": "003CKb192ggBqi",
+        "name": "Fall Out Boy (打倒男孩)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "003vyG9q2klWs4",
+        "name": "范玮琪",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "科幻精品",
+    "items": [
+      {
+        "id": "001fNHEf1SFEFN",
+        "name": "G.E.M. 邓紫棋",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "000t2qd13dLpae",
+        "name": "G-DRAGON (权志龙)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "002OfR3n1vx75j",
+        "name": "葛林",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "0043Zxw10txf5O",
+        "name": "郭静",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "出版力荐",
+    "items": [
+      {
+        "id": "002Vcz8F2hpBQj",
+        "name": "华晨宇",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "002mze3U0NYXOM",
+        "name": "胡夏",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "004QoDUs3jfOC6",
+        "name": "韩安旭",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  },
+  {
+    "name": "专题",
+    "items": [
+      {
+        "id": "002DYpxl3hW3EP",
+        "name": "Justin Bieber (贾斯汀·比伯)",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "004YXxql1sSr2o",
+        "name": "金志文",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "0023ni2j3F9CpN",
+        "name": "Jam",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      },
+      {
+        "id": "001m7JoC1IVL44",
+        "name": "金南玲",
+        "desc": "穿越到大江户游戏世界成为大Boss",
+        "author": "一夜之秋",
+        "tags": ["武侠","连载","56万字"],
+        "img": "static/img/book10001.jpg"
+      }
+    ]
+  }
+]
