@@ -19,8 +19,8 @@ let imgBaseUrl = ''
 if (process.env.NODE_ENV === 'development') {
   imgBaseUrl = 'http://localhost:8080'
 } else if (process.env.NODE_ENV === 'production') {
-  baseUrl = 'http://127.0.0.1:5000'
-  imgBaseUrl = 'http://127.0.0.1:5000/img/'
+  baseUrl = 'http://39.106.134.175:80'
+  imgBaseUrl = 'http://39.106.134.175:80/img/'
 }
 
 export {
